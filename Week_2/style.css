@@ -1,0 +1,14 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgba(115, 132, 168, 0.849);
+    border:3px solid rgb(114, 71, 71);
+    padding: 20px 30px;
+    margin:30px;
+}
+*{
+    background-color:#5da72f;
+}
+.navbar{
+    list-style: none;
+    text-decoration: none;
+}
