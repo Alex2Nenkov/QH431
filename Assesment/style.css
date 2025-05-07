@@ -1,15 +1,50 @@
-.Title{
-    font-family: 'Times New Roman', Times, serif;
-    color: #258b8ad2;
-    font-size: 50px;
-    position: center; 
-    size: 10cm;
-    height: 20px;
 
-}
 body{
     background-image: url('./images/BackgroundImage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    background: scroll;
+    background-color: rgb(174, 129, 53);
+    
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+li {
+    list-style:none;
+    width: 60px;
+    padding: 1.5rem;
+}
+
+li a {
+    width: 150px;
+    height: 50px;
+   
+    display: flex;
+    place-content: center;
+
+    position: absolute;
+
+}
+
+li img {
+    width: 100%;
+    height: 100%;
+    object-fit:  cover;
+    align-self: center;
+    position: absolute;
+    top: 25px;
+    border: 3px solid rgba(0, 0, 0, 0.393);
+    background-color: rgba(255, 255, 255, 0.134);
+    box-shadow: 3px 3px black;
 }
