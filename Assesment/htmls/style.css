@@ -48,3 +48,61 @@ li img {
     background-color: rgba(255, 255, 255, 0.134);
     box-shadow: 3px 3px black;
 }
+h1{
+    align-self: center;
+    color: rgb(82, 7, 7);
+    stroke: black;
+    position: relative;
+    text-align: center;
+
+}
+
+  .contact-container {
+    background-color: rgb(152, 113, 36);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+  }
+  
+  .contact-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #acaeb0;
+    color: rgb(86, 11, 11);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ffffff;
+  }
+  
